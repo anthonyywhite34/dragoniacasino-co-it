@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dragoniacasino.co.it/sitemap.xml
