@@ -1,0 +1,100 @@
+.button, .faq-question-icon {
+    fill: var(--white)
+}
+
+.button {
+    font-weight: 700;
+    background-color: var(--button-secondary);
+    transition: .3s;
+    display: inline-block;
+    color: var(--white);
+    border: none;
+    font-family: var(--font-family), sans-serif;
+    cursor: pointer
+}
+
+.casinos__item, .content table td, .content table th, .content-aside-block, .footer, .footer-payments, .review-cta__advantages {
+    border-color: var(--border)
+}
+
+.button:hover {
+    transform: scale(1.2)
+}
+
+.button.primary {
+    background-color: var(--button-primary)
+}
+
+.button.small {
+    padding: 6px 18px
+}
+
+.button.large {
+    padding: 12px 24px
+}
+
+.content blockquote {
+    border-color: var(--button-secondary);
+    background-color: var(--border)
+}
+
+.casinos__buttons a, .content-aside-block a {
+    color: var(--font)
+}
+
+.content-aside-block a:hover {
+    color: var(--button-primary)
+}
+
+.header {
+    background-color: var(--header)
+}
+
+.bottom-bar, .footer {
+    background-color: var(--footer)
+}
+
+.header__menu-ul a {
+    color: var(--header-font)
+}
+
+.header__mobile-btn div {
+    background-color: var(--button-secondary)
+}
+
+.footer-social a {
+    border-color: transparent
+}
+
+.bottom-bar__wrapper-item span, .footer a, .footer__copyright, .footer__menu-ul a {
+    color: var(--footer-font)
+}
+
+.faq-question {
+    padding: 12px 16px;
+    background: var(--button-secondary);
+    color: var(--white)
+}
+
+.faq-question:hover {
+    opacity: .7
+}
+
+.bonuses, .slider, .slots, .slots h2 {
+    margin: 24px 0
+}
+
+.swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 0 !important
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: var(--button-primary) !important
+}
+
+.casinos__bonus, .review-cta__bonus {
+    background-color: var(--button-secondary);
+    color: var(--white)
+}
